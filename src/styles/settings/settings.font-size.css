@@ -1,0 +1,17 @@
+/* ==========================================================================
+   #FONT SIZE
+   ========================================================================== */
+
+:root {
+  --font-size-root: 16px;
+  --font-size-base: 1rem;
+  --font-size-heading-large: 1.5rem;
+  --font-size-heading-x-large: 2rem;
+  --font-size-x-small: 0.625rem;
+  --font-size-small: 0.75rem;
+  --font-size-medium: 0.8125rem;
+  --font-size-medium-a: 0.875rem;
+  --font-size-large: 1rem;
+  --font-size-x-large: 1.25rem;
+  --font-size-xx-large: 1.75rem;
+}

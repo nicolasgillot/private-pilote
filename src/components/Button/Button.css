@@ -1,0 +1,75 @@
+@import '../../styles/variables.css';
+
+/* ==========================================================================
+   #BUTTON
+   ========================================================================== */
+
+.c-button {
+  display: inline-block;
+  position: relative;
+  padding: 0;
+  transition:
+    background-color var(--duration-immediately) linear,
+    color var(--duration-immediately) linear;
+  border: var(--border-width-thin) solid transparent;
+  background: transparent;
+  background-clip: border-box;
+  color: var(--color-text-link);
+  font-size: var(--font-size-medium);
+  line-height: var(--line-height-button);
+  text-decoration: none;
+  white-space: normal;
+  user-select: none;
+
+  @nest
+  &:hover,
+  &:focus,
+  &:active,
+  &:visited {
+    text-decoration: none;
+  }
+
+  @nest
+  &:hover,
+  &:focus {
+    color: var(--color-text-link-hover);
+  }
+
+  @nest &:focus {
+    @mixin focus-button;
+  }
+
+  @nest &[disabled] {
+    color: var(--color-text-button-default-disabled);
+  }
+}
+
+.c-button--default {
+  min-width: 8rem;
+  border: var(--spacing-xxx-small) solid var(--color-border-button-default);
+  color: var(--color-text-button-default);
+
+  @mixin button;
+
+  @nest
+  &:hover,
+  &:focus {
+    color: var(--color-text-link-hover);
+  }
+
+  @nest &:focus {
+    @mixin focus-button;
+  }
+
+  @nest &[disabled] {
+    opacity: 0.6;
+    background-color: var(--color-background-button-default-disabled);
+    cursor: default;
+
+    @nest
+    &:hover,
+    &:focus {
+      color: var(--color-text-button-default-disabled);
+    }
+  }
+}

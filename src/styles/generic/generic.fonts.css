@@ -1,0 +1,39 @@
+/* ==========================================================================
+   #FONTS
+   ========================================================================== */
+
+/* Regular */
+@font-face {
+  font-family: PassionOne;
+  font-style: normal;
+  font-display: swap;
+  font-weight: var(--font-weight-regular);
+  src: url('../fonts/passion-one/passion-one-regular.ttf') format('truetype');
+}
+
+/* Bold */
+@font-face {
+  font-family: PassionOne;
+  font-style: normal;
+  font-display: swap;
+  font-weight: var(--font-weight-bold);
+  src: url('../fonts/passion-one/passion-one-bold.ttf') format('truetype');
+}
+
+/* Black */
+@font-face {
+  font-family: PassionOne;
+  font-style: normal;
+  font-display: swap;
+  font-weight: var(--font-weight-black);
+  src: url('../fonts/passion-one/passion-one-black.ttf') format('truetype');
+}
+
+/* Regular */
+@font-face {
+  font-family: Viga;
+  font-style: normal;
+  font-display: swap;
+  font-weight: var(--font-weight-regular);
+  src: url('../fonts/viga/viga-regular.ttf') format('truetype');
+}

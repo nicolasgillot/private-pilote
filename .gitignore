@@ -1,0 +1,14 @@
+# Build folder
+build
+
+# Webpack dll
+dll
+
+# Dependency directory
+node_modules
+
+# JetBrains
+.idea
+
+# Visual Studio Code
+.vscode

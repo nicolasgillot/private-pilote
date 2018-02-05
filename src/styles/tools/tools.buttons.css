@@ -1,0 +1,11 @@
+/* ==========================================================================
+   #BUTTONS
+   ========================================================================== */
+
+:root {
+  @define-mixin button {
+    padding: var(--spacing-xx-small) var(--spacing-x-large);
+    text-align: center;
+    vertical-align: middle;
+  }
+}

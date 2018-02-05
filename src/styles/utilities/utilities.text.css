@@ -1,0 +1,25 @@
+/* ==========================================================================
+   #TEXT
+   ========================================================================== */
+
+/* ALIGNMENT */
+
+.u-text-align--center {
+  text-align: center !important;
+}
+
+/* HEADING */
+
+.u-text-heading--large {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-heading-x-large);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-heading);
+}
+
+.u-text-heading--medium {
+  font-family: var(--font-family-heading);
+  font-size: var(--font-size-heading-large);
+  font-weight: var(--font-weight-light);
+  line-height: var(--line-height-heading);
+}

@@ -1,0 +1,20 @@
+/* ==========================================================================
+   #LINKS
+   ========================================================================== */
+
+a {
+  transition: color var(--duration-quickly) linear;
+  color: var(--color-text-link);
+  text-decoration: none;
+
+  @nest
+  &:hover,
+  &:focus {
+    color: var(--color-text-link-hover);
+    text-decoration: underline;
+  }
+
+  @nest &:active {
+    color: var(--color-text-link-active);
+  }
+}

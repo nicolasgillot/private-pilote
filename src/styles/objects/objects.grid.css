@@ -1,0 +1,34 @@
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+
+/* AUTOMATIC SIZING */
+
+.o-grid {
+  display: flex;
+}
+
+.o-wrap {
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+/* MANUAL SIZING */
+
+.o-size--1-of-1 {
+  width: 100%;
+}
+
+@media (--mq-medium-min) {
+  .o-size-medium--2-of-2 {
+    width: 50%;
+  }
+
+  .o-size-medium--5-of-12 {
+    width: 41.6666666667%;
+  }
+
+  .o-size-medium--7-of-12 {
+    width: 58.3333333333%;
+  }
+}

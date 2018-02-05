@@ -1,0 +1,18 @@
+/* ==========================================================================
+   #MEDIA QUERY
+   ========================================================================== */
+
+:root {
+  @custom-media --mq-x-small-min (min-width: 20em);
+  @custom-media --mq-x-small-max (max-width: 19.9375em);
+  @custom-media --mq-small-min (min-width: 30em);
+  @custom-media --mq-small-max (max-width: 29.9375em);
+  @custom-media --mq-medium-min (min-width: 48em);
+  @custom-media --mq-medium-max (max-width: 47.9375em);
+  @custom-media --mq-large-min (min-width: 64em);
+  @custom-media --mq-large-max (max-width: 63.9375em);
+  @custom-media --mq-huge-min (min-width: 76.5em);
+  @custom-media --mq-huge-max (max-width: 76.4375em);
+  @custom-media --mq-super-min (min-width: 114em);
+  @custom-media --mq-super-max (max-width: 113.9375em);
+}

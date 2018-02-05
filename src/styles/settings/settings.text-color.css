@@ -1,0 +1,14 @@
+/* ==========================================================================
+   #TEXT COLOR
+   ========================================================================== */
+
+:root {
+  --color-text-button: #ffe818;
+  --color-text-button-default: #ffe818;
+  --color-text-button-default-disabled: #d8dde6;
+  --color-text-default: #fff;
+  --color-text-label: #ffe818;
+  --color-text-link: #ffe818;
+  --color-text-link-active: #00396b;
+  --color-text-link-hover: color(var(--color-text-link) blackness(20%));
+}

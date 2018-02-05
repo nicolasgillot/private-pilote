@@ -1,0 +1,20 @@
+@import '../../styles/variables.css';
+
+/* ==========================================================================
+   #PROGRESS INDICATOR
+   ========================================================================== */
+
+.c-progress-bar {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: var(--progress-bar-height);
+  border: 0;
+  background: var(--progress-bar-color-background);
+
+  @nest & .c-progress-bar__value {
+    display: block;
+    height: var(--progress-bar-height);
+    background: var(--progress-bar-color-background-fill);
+  }
+}

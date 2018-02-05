@@ -1,0 +1,20 @@
+/* ==========================================================================
+   #GRID
+   ========================================================================== */
+
+/* VERTICAL ALIGNMENT ITEM */
+
+.u-align-top {
+  align-self: flex-start;
+  vertical-align: top;
+}
+
+.u-align-middle {
+  align-self: center;
+  vertical-align: middle;
+}
+
+.u-align-bottom {
+  align-self: flex-end;
+  vertical-align: bottom;
+}

@@ -1,0 +1,10 @@
+/* ==========================================================================
+   #BACKGROUND COLOR
+   ========================================================================== */
+
+:root {
+  --color-background-button-default-disabled: transparent;
+  --color-background-selection: #d8edff;
+  --progress-bar-color-background: #514e61;
+  --progress-bar-color-background-fill: #fff;
+}
